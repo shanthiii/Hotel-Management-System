@@ -1,0 +1,83 @@
+.hotel-head{
+    text-align: center;
+
+    padding-top: 35px;
+
+    text-shadow: 0vh;
+}
+header{
+    padding-top: 5px;
+    text-shadow: 4vh;
+ 
+}
+h1{
+    text-align: center;
+    color:black;
+    font-size:60px;   
+}
+h3{
+    color: dodgerblue;
+    font-size:50px;
+    padding:100px;    
+}
+body {
+    /* The image used */
+    background-image: url(./1.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.layout {
+    background-color: lightgrey;
+    width: 1000px;
+    border: 2px dodgerblue;
+    border-style: inset;
+    height: 500px;
+    margin: 150px;
+    display:flex;
+    flex-direction: row;
+  }
+  .button {
+    border-radius: 4px;
+    background-color: #1f8de7f1;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .back{
+      position: absolute;
+  }
+  
+  .table-display {
+    padding-right=50px;   
+    margin-top=50px;
+  }

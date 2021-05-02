@@ -1,0 +1,101 @@
+body {
+    /* The image used */
+    background-image: url(./1.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+h1{
+        text-align: center;
+        color: gold;
+        font-size:80px;
+        -webkit-text-stroke-width: 0.7px;
+      -webkit-text-stroke-color: black;
+ }
+  
+h2{
+    text-align: center;
+  color: dodgerblue;
+  font-size:40px;
+  -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+  }
+  h3{
+    text-align: center;
+  color: dodgerblue;
+  font-size:30px;
+  -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+  }
+  p{
+    text-align: left;
+    font-size:15px;
+    font-family: cursive;
+  }
+  .manager-head{
+
+    text-align: center;
+    text-shadow: 0vh;
+    background-color: lightgrey;
+   
+    width: 1000px;
+    border: 2px dodgerblue;
+    border-style: inset;
+    height: 600px;
+
+}
+.row-main{
+    display: flex;
+    flex-direction: column;
+    height:520px;
+    width:100%;
+    
+}
+
+.table-display{
+  
+    width:60%;
+    height:260px;
+    font-size:20px;
+    margin:5px ;
+    margin-top:10px;
+    margin-left:50px;
+}
+.form-display{
+    width:50%;
+    font-size:24px;
+    height:260px;
+    margin:5px;
+    
+}
+.manager-display{
+    text-align:center;
+    width:30%;
+    height:260px;
+    margin:10px;
+    margin-left:50px;
+    
+}
+.column-1{
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    width:1300px;
+    height:200px;
+    
+}
+.contact-display{
+    width:50%;
+    font-size:24px;
+    height:260px;
+    margin:5px;
+    
+}
+  .column-2 {
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    width:1300px;
+    height:300px;
+  }

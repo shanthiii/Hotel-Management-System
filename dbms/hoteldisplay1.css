@@ -1,0 +1,119 @@
+.hotel-head{
+    text-align: center;
+
+    padding-top: 35px;
+
+    text-shadow: 0vh;
+    background-color: lightgrey;
+    width: 1300px;
+    border: 2px dodgerblue;
+    border-style: inset;
+    height: 780px;
+    margin: 150px;
+    padding:10px
+}
+header{
+
+    text-shadow: 4vh;
+    
+}
+h1{
+    text-align: center;
+    color: gold;
+    font-size:80px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+body {
+    /* The image used */
+    background-image: url(./1.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.hotel-grid{
+color: rgb(48, 136, 187);
+   width:33.33%;
+   height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.hotel-row1,.hotel-row2{
+    display: flex;
+    text-align:center;
+    flex-direction: row;
+    width:100%;
+    margin:15px auto;
+}
+#hotel-1{
+    background-image: url(./images/hotel1-4.jpg);
+    border: 2px dodgerblue;
+    border-style: inset;
+    
+}
+#hotel-2{
+    background-image: url(./images/hotel1-1.jpg);
+    border: 2px dodgerblue;
+    border-style: inset;
+
+}#hotel-3{
+    background-image: url(./images/hotel1-2.jpg);
+    border: 2px dodgerblue;
+    border-style: inset;
+    
+}#hotel-4{
+    background-image: url(./images/hotel1-3.jpg);
+    border: 2px dodgerblue;
+    border-style: inset;
+    
+}#hotel-5{
+    background-image: url(./images/hotel1-5.jpg);
+    border: 2px dodgerblue;
+    border-style: inset;
+
+}#hotel-6{
+    background-image: url(./images/hotel1-6.jpg);
+    border: 2px dodgerblue;
+    border-style: inset;
+}
+.button {
+    border-radius: 4px;
+    background-color: #1f8de7f1;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 7px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
